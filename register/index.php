@@ -1,7 +1,7 @@
-<?php
-include (../register/login/login.php);
-include (../register/login/register.php);
-?>
+//<?php
+//include (../register/login/login.php);
+//include (../register/login/register.php);
+//?>
 
 
 <!DOCTYPE html>
