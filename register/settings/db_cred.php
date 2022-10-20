@@ -1,8 +1,9 @@
 <?php
+
 //Database credentials
-define("DATABASE", "shoppn");
-define("SERVER", "localhost");
-define("USERNAME", "root");
-define("PASSWD", "");
+define("DATABASE", "heroku_3913570f2761d87");
+define("SERVER", "");
+define("USERNAME", "b26bb63832708b");
+define("PASSWD", "1a6fad73");
 
 ?>
