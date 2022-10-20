@@ -1,6 +1,6 @@
 <?php
-include (../register/login/login.php);
-include (../register/login/register.php);
+include (../login/login.php);
+include (../login/register.php);
 ?>
 
 
@@ -16,9 +16,9 @@ include (../register/login/register.php);
 
 <body>
 
-<p><a href="../register/login/login.php" class="btn btn-primary btn-lg" role="button">Login</a></p>
+<p><a href="../login/login.php" class="btn btn-primary btn-lg" role="button">Login</a></p>
 
-<p><a href="../register/login/register.php" class="btn btn-primary btn-lg" role="button">Register</a></p>
+<p><a href="../login/register.php" class="btn btn-primary btn-lg" role="button">Register</a></p>
 
 
 </body>
