@@ -1,3 +1,9 @@
+<?php
+include (../register/login/login.php)
+include (../register/login/register.php)
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
