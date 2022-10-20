@@ -1,6 +1,6 @@
 <?php
-include (../register/login/login.php)
-include (../register/login/register.php)
+include (../register/login/login.php);
+include (../register/login/register.php);
 ?>
 
 
