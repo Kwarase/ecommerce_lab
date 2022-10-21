@@ -1,9 +1,3 @@
-<?php
-include (../login/login.php);
-include (../login/register.php);
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,9 +10,9 @@ include (../login/register.php);
 
 <body>
 
-<p><a href="../login/login.php" class="btn btn-primary btn-lg" role="button">Login</a></p>
+<p><a href="../Login/login.php" class="btn btn-primary btn-lg" role="button">Login</a></p>
 
-<p><a href="../login/register.php" class="btn btn-primary btn-lg" role="button">Register</a></p>
+<p><a href="../Login/register.php" class="btn btn-primary btn-lg" role="button">Register</a></p>
 
 
 </body>
