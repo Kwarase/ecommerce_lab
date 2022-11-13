@@ -17,12 +17,12 @@ $hash = password_hash($password, PASSWORD_DEFAULT);
 $check= add_customer_ctrl($name, $email, $hash, $country, $city, $contact, $image);
 
 if ($check) {
-	echo "Registration Successful";
+	return "Registration Successful";
 	header("Location: /login/login.php");
 }
 
 else{
-	echo "not working";
+	return "Registration failed";
 }
 
 
