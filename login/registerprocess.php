@@ -17,7 +17,7 @@ $hash = password_hash($password, PASSWORD_DEFAULT);
 $check= add_customer_ctrl($name, $email, $hash, $country, $city, $contact, $image);
 
 if ($check) {
-	return "Registration Successful";
+	//return "Registration Successful";
 	header("Location: ../login/login.php");
 }
 
