@@ -18,7 +18,7 @@ $check= add_customer_ctrl($name, $email, $hash, $country, $city, $contact, $imag
 
 if ($check) {
 	echo "Registration Successful";
-	header("Location: ../Login/login.php");
+	header("Location: login.php");
 }
 
 else{
