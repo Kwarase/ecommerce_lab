@@ -12,12 +12,12 @@ $login_check = login_customer_ctrl($login_email, $login_password);
 
 
 if ($login_check == null) {
-	echo "Login failed";
+	echo "Login Failed";
 	//header("Location: ../index.php");
 }
 
 else {
-	echo "login success";
+	echo "Login Successful";
 	session_login ($login_check['customer_id'], $login_check['user_role']);
 	header("Location: ../index.php");
 }
