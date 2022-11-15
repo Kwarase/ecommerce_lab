@@ -42,6 +42,40 @@ class general_class extends db_connection
 	
 		return $this -> db_query($sql);
 		}
+		
+	/* CATEGORIES */
+
+	//--INSERT--//
+
+	function insert_category($a){
+
+		$sql = "INSERT INTO `categories`(`cat_name`) VALUES ('$a')";
+
+		return $this -> db_query($sql);
+	}
+
+	//--SELECT--//
+	//Select all
+	function select_category(){
+		$sql =" SELECT * FROM `categories`";
+
+		return $this -> db_fetch_all($sql);
+	}
+
+	//Select one
+	function select_one_category($cat_id){
+		$sql =" SELECT * FROM `categories` WHERE `cat_id` = '$cat_id'";
+
+		return $this -> db_fetch_one($sql);
+	}
+
+	//--UPDATE--//
+	function update_category_cls($cat_id, $cat_name){
+	$sql = "UPDATE categories SET cat_name = '$cat_name' WHERE cat_id = $cat_id";
+
+	return $this -> db_query($sql);
+	}
+
 
 
 
