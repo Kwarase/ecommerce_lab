@@ -48,6 +48,18 @@ function select_all_brands_ctrl(){
     return $data;
 }
 
+//--UPDATE--//
+//update all brands
+function update_all_brands_ctrl($bid, $bname){
+
+  //creating instance
+  $update_brand = new general_class();
+
+  // return method
+  $data = $update_brand -> update_brand_cls($bid, $bname);
+    return $data;
+}
+
 
 
 ?>
