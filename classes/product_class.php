@@ -35,6 +35,15 @@ class general_class extends db_connection
 
 		return $this -> db_fetch_one($sql);
 	}
+	
+	//--UPDATE--//
+	function update_brand_cls($bid, $bname){
+		$sql = "UPDATE brands SET brand_name = '$bname' WHERE brand_id = $bid";
+	
+		return $this -> db_query($sql);
+		}
+
+
 
 }
 ?>
