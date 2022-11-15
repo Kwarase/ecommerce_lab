@@ -3,10 +3,10 @@
 require("../controllers/product_controller.php");
 
 include("../settings/core.php");
-// if (logged_in() == false){
-//   header('Location: ../index.php');
-// }
-// else {
+if (logged_in() == false){
+  header('Location: ../index.php');
+}
+else {
 
 ?>
 
@@ -37,8 +37,8 @@ include("../settings/core.php");
 
 <table>
         <th>Name</th>
-        <!-- <th>Edit</th>
-        <th>Delete</th> -->
+        <th>Edit</th>
+        <th>Delete</th>
 
     <?php
         $brandslist = select_all_brands_ctrl();
@@ -52,8 +52,8 @@ include("../settings/core.php");
             <!-- Making sure the initial name is displayed in the textbox -->
             <?php echo ($value['brand_name']);
           $bid = $value['brand_id'] ?></td>
-          <!-- <td><div><a href='update_brand.php?bid=<?php echo($bid);?>'>Update</a></div></td>
-          <td><div><a href="">Delete</a></div> -->
+          <td><div><a href='update_brand.php?bid=<?php echo($bid);?>'>Update</a></div></td>
+          <td><div><a href="">Delete</a></div>
 </td>
         </tr>
         <div>
@@ -66,6 +66,7 @@ include("../settings/core.php");
 <?php
 
 }
+}	
 ?>
   
 </table>
