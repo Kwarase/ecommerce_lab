@@ -1,8 +1,8 @@
 <?php
 //Database credentials
-define("DATABASE", "shoppn");
-define("SERVER", "localhost");
-define("USERNAME", "root");
+define("DATABASE", "heroku_3913570f2761d87");
+define("SERVER", "eu-cdbr-west-03.cleardb.net");
+define("USERNAME", "b26bb63832708b");
 define("PASSWD", "");
 
 ?>
