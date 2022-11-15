@@ -34,6 +34,8 @@
 	<button type="button" onclick = "document.location= 'login/logout.php'"><b>Logout</b></button>
 	|
 	<button type="button" onclick = "document.location= 'view/brandmgt.php'"><b>Brand</b></button>
+		|
+	<button type="button" onclick = "document.location= 'view/categorymgt.php'"><b>Category</b></button>
 <?php
     
 }
@@ -47,14 +49,6 @@ else{ ?>
     }
 ?>
 
-<!-- 
-<p><a href="../register/login/login.php" class="btn btn-primary btn-lg" role="button">Login</a></p>
-
-<p><a href="../register/login/register.php" class="btn btn-primary btn-lg" role="button">Register</a></p>
-
-<p><a href="../add_brand/view/brandmgt.php" class="btn btn-primary btn-lg" role="button">Brand</a></p>
-
-<p><a href="../register/login/logout.php" class="btn btn-primary btn-lg" role="button">Logout</a></p> -->
 
 
 </body>
